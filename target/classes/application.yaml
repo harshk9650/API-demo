@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: apidemo
+
+  #add hibernate configuration
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/lpu
+    username: root
+    password: Harsh@2311
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
